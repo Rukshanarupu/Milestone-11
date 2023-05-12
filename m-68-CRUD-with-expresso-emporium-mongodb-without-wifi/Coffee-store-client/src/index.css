@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.my-container{
+    @apply px-5 md:px-10 max-w-[1240px]
+}
+
