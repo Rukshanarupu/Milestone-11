@@ -115,16 +115,16 @@ const Login = () => {
                            <button onClick={handleGoogleSignIn} className="flex items-center text-white px-4 bg-red-400 py-2.5 t-medium rounded-lg text-sm hover:bg-red-500"><FaGoogle className='mr-1'></FaGoogle> Google</button>
                            <button onClick={handleGithubSignIn} className="flex items-center text-white px-4 ml-3 bg-red-400 py-2.5 t-medium rounded-lg text-sm hover:bg-red-500"><FaGithub className='mr-1'></FaGithub> Github</button>
                        </div>
-                </div>
-                <p class="text-sm font-light text-gray-500">Don’t have an account yet? 
-                    <Link class="ml-2 font-medium text-primary-600 hover:underline" to="/login">Sign up</Link>
-                </p>  
-                <div class="bg-white alert alert-error">
-                 <div>
-                     <span class="text-red-500">{error}</span>
-                     <span><p className='text-green-600'>{success}</p></span>
                     </div>
-                            </div>  
+                    <p class="text-sm font-light text-gray-500">Don’t have an account yet? 
+                        <Link class="ml-2 font-medium text-primary-600 hover:underline" to="/login">Sign up</Link>
+                    </p>  
+                    <div class="bg-white alert alert-error">
+                        <div>
+                            <span class="text-red-500">{error}</span>
+                            <span><p className='text-green-600'>{success}</p></span>
+                        </div>
+                    </div>  
                 </form>
                 </div>
                 <div className="text-center lg:text-left">

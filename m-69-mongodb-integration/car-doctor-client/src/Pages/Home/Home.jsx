@@ -31,7 +31,6 @@ const Home = () => {
                 </div>
             </div>
 
-
             {/* Service section start here */}
             <Services></Services>
 
