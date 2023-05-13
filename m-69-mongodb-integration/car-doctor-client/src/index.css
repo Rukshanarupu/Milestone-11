@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-title{
+    @apply py-4 md:text-3xl font-bold italic text-primary text-2xl font-forum
+}
+
+/* .title-design{
+    @apply flex mx-auto space-x-3 justify-center
+}
+.my-title-border{
+    @apply w-20 md:w-24 h-1 bg-secondary inline-flex mt-auto mb-5 rounded-e-md rounded-s-md
+} */
+
+.my-btn{
+    @apply bg-primary border-0 px-5 py-3 rounded-lg hover:bg-rose-500
+}
+
+.active{
+    @apply font-medium tracking-wide text-gray-900 transition-colors duration-200 bg-green-300
+}
+
+.default{
+    @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-green-600
+}
+
+.LazyLoad {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1.5s ease-in-out;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 2.5s ease-in-out;
+    -ms-transition: all 2.5s ease-in-out;
+    -o-transition: all 2.5s ease-in-out;
+    /* color: #e4644a; */
+}
+
+
+/* .btn-primary:hover {
+    @apply transform scale-[1.1]
+} */
